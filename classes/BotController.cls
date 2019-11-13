@@ -1,5 +1,5 @@
 public with sharing class BotController {
-//Demo Change PG 2 - peter Aug-19-2019
+//Demo Change PG 2 - developer-1 Nov-13-2019 *
     class HandlerMapping {
         
         public String handlerClassName;
@@ -12,7 +12,7 @@ public with sharing class BotController {
 
     }
 //Static Declaration
-//Demo Change PG 2 - peter Aug-19-2019
+//Demo Change PG 2 - Developer-1 Nov-13-2019 *
     static List<HandlerMapping> handlerMappings;
     
     static {

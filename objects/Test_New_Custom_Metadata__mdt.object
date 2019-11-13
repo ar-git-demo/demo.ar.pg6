@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Field_API_Name__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Field API Name</label>
+        <length>40</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IsActive__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>IsActive</label>
+        <type>Checkbox</type>
+    </fields>
+    <label>Test New Custom Metadata</label>
+    <listViews>
+        <fullName>All_Custom_Metadata_Records</fullName>
+        <columns>MasterLabel</columns>
+        <columns>DeveloperName</columns>
+        <columns>NamespacePrefix</columns>
+        <columns>Field_API_Name__c</columns>
+        <columns>IsActive__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Custom Metadata Records</label>
+    </listViews>
+    <pluralLabel>Test New Custom Metadata</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>First Child</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>fch</value>
+    </caseValues>
+    <fields>
+        <label><!-- AutorabitExtId__c --></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent --></label>
+        <name>Parent__c</name>
+        <relationshipLabel><!-- fch --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Rent --></label>
+        <name>Rent__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
